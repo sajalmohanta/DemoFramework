@@ -30,7 +30,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("/Users/sajalmohanta/eclipse-workspace2/FreeCRM/src/main/java/com/crm/qa/config/config.properties");
+			FileInputStream ip = new FileInputStream("../config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
